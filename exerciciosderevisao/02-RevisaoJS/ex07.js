@@ -11,3 +11,17 @@
 // >=5 Recuperação
 
 // Abaixo de 5 Reprovado
+let nota = 7
+
+if(nota>=9){
+    console.log("excelente")
+}
+else if(nota<9 && nota>=7){
+    console.log("bom")
+}
+else if(nota<7 && nota>=5){
+    console.log("recuperacao")
+}
+else{
+    console.log("reprovado")
+}

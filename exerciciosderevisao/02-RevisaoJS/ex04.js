@@ -6,3 +6,7 @@
 // nota2
 
 // Calcule a média e mostre no console
+let nota1 = 12
+let nota2 = 3
+let media=(nota1+nota2)/2
+ console.log("a media das notas deu %d", media)

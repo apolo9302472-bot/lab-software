@@ -19,3 +19,7 @@
 // Sem desconto
 
 // Mostre o total.
+let produto=`banana`
+let preco
+let quantidade
+console.log(`o total do valor foi`)
