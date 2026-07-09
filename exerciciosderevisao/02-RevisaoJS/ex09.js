@@ -19,7 +19,14 @@
 // Sem desconto
 
 // Mostre o total.
-let produto=`banana`
-let preco
-let quantidade
-console.log(`o total do valor foi`)
+let produto=`banana`;
+let preco=250;
+let quantidade=250;
+let total=(preco*quantidade);
+console.log(`o total do valor foi ${preco*quantidade}`)
+if (total>=500){
+    console.log(`recebera desconto de 15% R$${ total-(total*0.15) }`)
+}
+else{
+    console.log(`nao recebera desconto`)
+}
