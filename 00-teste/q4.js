@@ -58,6 +58,23 @@ rl.question("Digite o valor da compra em centavos: ", (a) => {
     b = Number(b);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+    
+    if(b==1){
+      console.log(`o valor da gorjeta foi ${a*0.05}`)
+    }
+     else if(b==2){
+      console.log(`o valor da gorjeta foi ${ a*0.1 }`)
+    }
+      else if(b==3){
+      console.log(`o valor da gorjeta foi ${a*0.15}`)
+    }
+     else if(b==4){
+      console.log(`o valor da gorjeta foi ${a*0.2}`)
+    }
+     else if(b==5){
+      console.log(`o valor da gorjeta foi ${(a*0.25)}`)
+    }
+  
 
     rl.close();
   });

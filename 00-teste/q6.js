@@ -53,6 +53,19 @@ rl.question("Digite seu modificador de ataque: ", (modificador) => {
     dificuldade = Number(dificuldade);
 
     // REALIZE O EXERCÍCIO AQUI 🔽
+    let vidadragao=999999
+    let valortotal=(modificador+valorDado)
+    if (valortotal>dificuldade){
+      console.log(`o ataque é um sucesso 10 de dano`)
+      console.log(`vida do dragão agora ${vidadragao-10}`)
+      console.log(`valor rodado no dado=${valorDado}`)
+    }
+    else if(valorDado==20){
+      console.log(`Cavaleiro: EXODIA OBLITERARRRRRR`)
+    }
+    else{
+      console.log(`falha no ataque`)
+    }
 
 
 

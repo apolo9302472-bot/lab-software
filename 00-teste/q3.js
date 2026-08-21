@@ -1,8 +1,8 @@
 /* 
-Questão 05
+Questão 03
 
  Você é o capitão de um navio e gostaria de calcular se seu dia de pirataria foi um sucesso.
- O suceso de sua viagem é calculado em cima de dois parâmetros - ouro e piratas.
+ O sucesso de sua viagem é calculado em cima de dois parâmetros - ouro e piratas.
  A viagem será um sucesso se houver um número de ouro equivalente ao número de piratas. 
  Porém, se ouro + piratas > 100, a pirataria foi um fracasso pois o navio provavelmente irá afundar por conta do peso.
     ___
@@ -33,6 +33,14 @@ rl.question("Digite a quantidade de piratas: ", (piratas) => {
     ouro = Number(ouro);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
+    let soma=(ouro+piratas)
+    
+    if(soma > 100){
+      console.log(`O NAVIO TA AFUNDANDO AAAAAAAA`)
+    }
+    else{
+      console.log(`a pirataria foi um sucesso arghh`)
+    }
 
     rl.close();
   });

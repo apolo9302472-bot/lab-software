@@ -48,7 +48,21 @@ rl.question("Digite a primeira carta do jogador: ", (j1) => {
     j2 = Number(j2);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
-
+    let resultado=(j1+j2)
+    let resultadoinimigo=(dealer1+dealer2)
+    console.log(`1 carta do jogador ${j1}`)
+    console.log(`2 carta do jogador ${j2}`)
+    console.log(`cartas do dealer ${dealer1} / ${dealer2} total ${dealer1+dealer2}`)
+    
+    if (resultado>21){
+      console.log(`estourou ${resultado=0}`)
+    }
+    else if(resultado>resultadoinimigo){
+      console.log(`jogador venceu dealer ${resultadoinimigo} jogador${resultado}`)
+    }
+  else{
+    console.log(`Dealer venceu Dealer: ${resultadoinimigo} jogador: ${resultado}` )
+  }
     rl.close();
   });
 });

@@ -32,8 +32,11 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
     dadoDois = Number(dadoDois);
 
     //REALIZE O EXERCÍCIO AQUI 🔽
-
-
+    let resultado = dadoUm + dadoDois;
+    console.log(`o valor toital dos dados deu ${resultado}`);
+    if (dadoUm == dadoDois) {
+      console.log(`valor total=${resultado * 2}`);
+    }
 
     rl.close();
   });
