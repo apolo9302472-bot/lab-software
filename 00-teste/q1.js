@@ -41,3 +41,12 @@ rl.question("Digite o resultado do primeiro dado: ", (dadoUm) => {
     rl.close();
   });
 });
+
+
+let codigoAcesso = 404;
+
+if (codigoAcesso === "404") {
+    console.log("Página não encontrada");
+} else {
+    console.log("Acesso liberado");
+}
